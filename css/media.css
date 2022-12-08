@@ -1,0 +1,223 @@
+@media(max-width:1000px) {
+
+  .about {
+    flex-wrap: wrap-reverse;
+  }
+
+  .about__content {
+    max-width: 600px;
+  }
+
+}  
+
+@media(max-width:768px) {
+
+  .header__site-navigation {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 60px 10px 30px;
+    font-size: 26px;
+    overflow-y: auto;
+    z-index: 2;
+    transition: top 0.7s;
+  }
+
+  .header__site-navigation.header__site-navigation--active {
+    top: 0;
+  }
+
+  .header__dropdown-menu {
+    position: static;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .header__user-navigation-title {
+    display: none;
+  }
+
+  .header__row-one {
+    border-bottom: 4px solid var(--color);
+  }
+
+  .header__user-navigation-item:nth-child(1)::after, .header__user-navigation-item:nth-child(2)::after {
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    top: -8px;
+  }
+
+  .header__user-navigation-item:nth-child(1)::after {
+    right: -8px;
+  }  
+
+  .header__user-navigation-item:nth-child(2)::after {
+    right: -9px;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  .book__content {
+    flex-wrap: wrap;
+  }
+
+  .wishlist__product {
+    flex-direction: column;
+  }
+
+  .wishlist__product-title {
+    align-self: center;
+    text-align: center;
+  }
+
+  .wishlist__product-price {
+    text-align: center;
+  }
+
+  .cart__product {
+    flex-direction: column;
+  }
+
+  .cart__product-box1 {
+    align-self: center;
+  }
+
+  .cart__product-price, .cart__product-title {
+    text-align: center;
+  }
+
+  .cart__final-sum {
+    text-align: center;
+  }
+
+  .order__content {
+    flex-direction: column;
+  }
+
+  .orders__product {
+    flex-direction: column;
+  }
+
+  .orders__product-box1 {
+    align-self: center;
+    text-align: center;
+  }
+
+}  
+
+@media(max-width:650px) {
+
+  .about__cards {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .user-settings__settings {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .user-settings__box-settings {
+    width: 100%;
+  }
+
+  .user-settings__settings-section1, .user-settings__settings-section2, .user-settings__settings-section3 {
+    display: none;
+  }
+
+  .user-settings__settings-section-menu {
+    display: block;
+  }
+
+  .purchases-without-reviews__product {
+    flex-direction: column;
+  }
+
+  .purchases-without-reviews__product-title {
+    text-align: center;
+  }
+
+  .orders__info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}  
+
+@media(max-width:540px) {
+  .new-books__card-author {
+    margin-top: 0px;
+  }  
+}  
+
+@media(max-width:500px) {
+
+  .order__product {
+    flex-direction: column;
+  }
+
+  .order__product-box1 {
+    align-self: center;
+    text-align: center;
+  }
+
+  .reviews__info {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .reviews__date {
+    font-size: 14px;
+  }
+
+}
+
+@media(max-width:420px) {
+
+  .about__slider {
+    display: none;
+  }
+
+}
+
+@media(max-width:400px) {
+
+  .books__title {
+    font-size: 18px;
+  }
+
+  .book__box-image {
+    width: fit-content;
+  }
+
+  .user-login__input, .user-register__input {
+    margin-top: 3px;
+    display: block;
+    margin-left: 0;
+  }
+
+  .user-login__label, .user-register__label {
+    text-align: left;
+  }
+
+  .user-login__input-groups {
+    align-items: center;
+  }
+
+  .user-register__input-groups {
+    align-items: flex-start;
+  }
+
+  .user-settings__settings-section1 {
+    font-size: 14px;
+  }
+
+}  
