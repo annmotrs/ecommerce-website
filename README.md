@@ -8,7 +8,8 @@
 **Фронтэнд** - HTML, CSS, JavaScript, библиотека JQuery для AJAX-запросов, библиотека Swiper.js, библиотека Chart.js, библиотека IMaskjs, иконочный шрифт Font Awesome, методология БЭМ.<br/>
 **Бэкенд** – PHP, расширение PDO.<br/>
 **СУБД** – MySQL.
-
+## Схема базы данных
+![Image alt](https://raw.githubusercontent.com/annmotrs/ecommerce-website/main/database_schema.png "Схема базы данных")
 ## Функционал сайта
 Неавторизованному пользователю предоставляется следующий функционал:
 1. Регистрация на сайте;
