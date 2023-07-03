@@ -9,7 +9,8 @@
 **Бэкенд** – PHP, расширение PDO.<br/>
 **СУБД** – MySQL.
 ## Демонстрация функционала сайта
-<a href="http://www.youtube.com/watch?v=LwodglQy0hE" target="_blank"><img src="http://img.youtube.com/vi/LwodglQy0hE/0.jpg" alt="Демонстрация функционала сайта" width="300" /></a>
+<a href="https://disk.yandex.ru/i/A5KADY2MXdKVOA" target="_blank">Видео с демонстрацией функционала сайта</a>
+
 ## Схема базы данных
 ![Схема базы данных](https://raw.githubusercontent.com/annmotrs/ecommerce-website/main/database_schema.png "Схема базы данных")
 ## Функционал сайта
